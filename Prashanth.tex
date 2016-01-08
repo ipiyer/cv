@@ -1,0 +1,155 @@
+\documentclass[margin, line, 10pt]{res}
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\textwidth=6.0in
+\itemsep=0in
+\parsep=0in
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{changepage}% http://ctan.org/pkg/changepage
+\usepackage{lipsum}%
+
+\hypersetup{
+    colorlinks=true,       % false: boxed links; true: colored links
+    linkcolor=cyan,          % color of internal links (change box color with linkbordercolor)
+    citecolor=green,        % color of links to bibliography
+    filecolor=magenta,      % color of file links
+    urlcolor=cyan           % color of external links
+}
+
+\newenvironment{list1}{
+  \begin{list}{\ding{113}}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.17in}}}{\end{list}}
+\newenvironment{list2}{
+  \begin{list}{$\bullet$}{%
+      \setlength{\itemsep}{0in}
+      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
+      \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
+      \setlength{\leftmargin}{0.2in}}}{\end{list}}
+\begin{document}
+ \textbf{\LARGE Prashanth Gopinath}
+\vspace{.15cm} \\
+\vspace{-.05cm}
+\begin{resume}
+
+\section{Contact Information}
+\vspace{.05in}
+\vspace{.05in}
+\begin{tabular}{@{}p{3in}p{3in}}
+{\it E-mail:} \href{mailto:munichlinux@gmail.com}{munichlinux at gmail dot com}. & {\it Twitter:} \href{http://twitter.com/munichlinux}{munichlinux}. \\
+{\it Current location:} Sunnyvale, US. & {\it IRC:} munichlinux, munichpython, JSLint.\\
+{\it Mobile:}  +1(415) 622-5201. & {\it Git:} \href{http://github.com/munichlinux}{http://github.com/munichlinux}
+\end{tabular}
+
+\section{Bio}
+
+I rant a lot about (NodeJS, ES2015, ES2016, Functinoal Programming, Generator awesomeness) evangalize (Apple, Steve Jobs, Emacs, Macintosh). I (passionate programmer, love design patterns, frequent hiker, budding photographer).
+
+\section{Education}
+{\bf B.Tech Information Technology}, Anna University, India. \hfill (June, 2003 - Nov, 2007)
+
+\section{Skills}
+\begin{list2}
+\item {\bf Languages:} Node.JS(ES262,ES5,ES6), Python.\\
+\vspace{-.3cm}
+\item {\bf JavaScript Lib:} JQuery, Backbone.js, Repond.js, modernizr, GruntJS, Gulp, Yeoman, Underscore.\\
+\vspace{-.3cm}
+\item {\bf Web:} HTML5, CSS3, Websockets, Web Components, Polymer.\\
+\vspace{-.3cm}
+\item {\bf CSS Preprocessors:} Sass, Compass.\\
+\vspace{-.3cm}
+\item {\bf Web Frameworks:} Django, Express.\\
+\vspace{-.3cm}
+\item {\bf Operating System:} GNU/Linux, Macintosh.\\
+\vspace{-.3cm}
+\item {\bf Version Control:} Subversion, Git.\\
+\vspace{-.3cm}
+\item {\bf API:} OAuth, OpenId.\\
+\vspace{-.3cm}
+\item {\bf Database:} Mysql, CouchDB, Postgres.\\
+\vspace{-.3cm}
+\item {\bf Certification:} RHCT(604006875597323).\\
+\vspace{-.3cm}
+\item {\bf Favourite Text Editors:} GNUEmacs, Sublime Text, Atom.\\
+\vspace{-.3cm}
+\end{list2}
+
+\section{Employment}
+
+{\Large {\bf Search, Yahoo Inc.}}, Software Dev Eng, Sr. (December, 2015 - current)\\
+\begin{adjustwidth}{.5em}{0pt}
+  I'm part of the Mobile SDK team, I write the backend API for the search SDK.
+\end{adjustwidth}
+\vspace{.05cm}
+
+{\Large {\bf YSB, Yahoo Inc.}}, Software Dev Eng, Sr. (November, 2013 - November, 2015)\\
+\vspace{-.1cm}
+\begin{list2}
+\vspace{.1cm}
+\item Rewrote the legacy stack with NodeJS and made the application device friendly.
+\item Built A/B testing infrastructure and analytics for products and promotions.
+\item Built automated testing infrastructure leading to continous deployment.
+\item Reduced develeopment cycle from weeks to hours.
+\item Rebuilt the payments system with zuora.
+\item Migrated from Y's infrastructure to AWS.
+\end{list2}
+\vspace{.05cm}
+
+{\Large {\bf Flickr, Yahoo Inc.}}, Lead Engineer, San Francisco, CA.  \hfill (April, 2013 - Oct, 2013)\\
+\vspace{-.1cm}
+\begin{adjustwidth}{.5em}{0pt}
+  I was part of the vibrant Front-End Engineering team. I was involved in the Flickr Reboot and contributed bunch of features.
+\end{adjustwidth}
+
+{\Large {\bf Webhosting, Yahoo Inc.}}, Lead Engineer, Bangalore, India  \hfill (July, 2010 - March, 2013)\\
+\vspace{-.1cm}
+\begin{adjustwidth}{.5em}{0pt}
+I started as Sr.Software Engineer, in a year time moved to the role of Tech Lead.\\
+\vspace{-.1cm}
+\begin{list2}
+\vspace{-.3cm}
+\item Re-architected the Rich Text editor.\\
+\vspace{-.3cm}
+\item Redesigned the major parts of framework to prototype and deliver faster.\\
+\vspace{-.3cm}
+\item Introduced NodeJS.\\
+\vspace{-.3cm}
+\item Build Template testing framework which reduced the testing cost by one third.\\
+\vspace{-.3cm}
+\item Introduced Frontend best practices, TDD and BDD.\\
+\end{list2}
+\vspace{.05cm}
+\end{adjustwidth}
+
+\section{}
+{\Large {\bf Sportxiom Ventures}}, Web Architect, Hyderabad, India  \hfill 2009 - 2010\\
+\vspace{-.3cm}\\
+Took a position as Web Architect in a bootstrapping startup, I was responsible for building a real time sports application in Python, Django and JavaScript.
+\vspace{.05cm}
+
+\section{}
+{\Large {\bf Info Edge}}, Senior software Engineer,  Noida, India \hfill 2008 - 2009 \\
+\vspace{-.3cm}\\
+I was part of the brijj.com, I learned JavaScript and fell in love it. I made lot of UI and Front-end performance improvements.
+\vspace{.05cm}
+
+
+\section{}
+{\Large {\bf Cleartrip}}, Graduate Engineer,  Mumbai, India \hfill 2007 - 2008\\
+\vspace{-.3cm}\\
+I was fresh grad out of college, I was part of air search team. I learned Lisp, web development, air system.
+\vspace{.05cm}
+
+
+
+\section{Awards}
+\begin{list2}
+\item 'The Quality Champ' for the Q2 - 2011 at Yahoo Inc.
+\item 'Best Project Award' for 2007, Kongu Engineering College, India.
+\end{list2}
+
+\end{resume}
+\end{document}
