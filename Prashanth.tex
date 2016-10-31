@@ -4,6 +4,7 @@
 \textwidth=6.0in
 \itemsep=0in
 \parsep=0in
+\usepackage{scrextend}
 \usepackage{hyperref}
 \usepackage{color}
 \usepackage{changepage}% http://ctan.org/pkg/changepage
@@ -30,13 +31,12 @@
       \setlength{\topsep}{0in} \setlength{\partopsep}{0in}
       \setlength{\leftmargin}{0.2in}}}{\end{list}}
 \begin{document}
- \textbf{\LARGE Prashanth Gopinath}
+ \textbf{\LARGE Prashanth Iyer}
 \vspace{.15cm} \\
 \vspace{-.05cm}
 \begin{resume}
 
 \section{Contact Information}
-\vspace{.05in}
 \vspace{.05in}
 \begin{tabular}{@{}p{3in}p{3in}}
 {\it E-mail:} \href{mailto:munichlinux@gmail.com}{munichlinux at gmail dot com}. & {\it Twitter:} \href{http://twitter.com/munichlinux}{munichlinux}. \\
@@ -45,21 +45,26 @@
 \end{tabular}
 
 \section{Bio}
-
-I rant a lot about (NodeJS, ES2015, ES2016, Functinoal Programming, Generator awesomeness) evangalize (Apple, Steve Jobs, Emacs, Macintosh). I (passionate programmer, love design patterns, frequent hiker, budding photographer).
+\{
+  \begin{addmargin}[1em]{0em}
+  {\bf rant}: [NodeJS, ES2015, ES2016, Functional Programming, Generator awesomeness],\\
+  {\bf me}: [passionate programmer, love design patterns, frequent hiker, budding photographer],
+  \end{addmargin}
+  \vspace{-.15in}
+\}
 
 \section{Education}
-{\bf B.Tech Information Technology}, Anna University, India. \hfill (June, 2003 - Nov, 2007)
+{\bf B.Tech Information Technology}, Anna University, India. \hfill (June 2003 - Nov 2007)
 
 \section{Skills}
 \begin{list2}
-\item {\bf Languages:} Node.JS(ES262,ES5,ES6), Python.\\
+\item {\bf Languages:} JavaScript(ES6, ES7), Clojure, Node.JS, Python.\\
 \vspace{-.3cm}
-\item {\bf DevOps:} Docker, Chef, Ansible, Vagrant.\\
+\item {\bf DevOps:} Docker, Ansible, kubernetes, gulp, browserify.\\
 \vspace{-.3cm}
-\item {\bf JavaScript Lib:} JQuery, Backbone.js, Repond.js, modernizr, GruntJS, Gulp, Yeoman, Underscore.\\
+\item {\bf JavaScript Lib:} JQuery, Backbone.js, Lodash.\\
 \vspace{-.3cm}
-\item {\bf Web:} HTML5, CSS3, Websockets, Web Components, Polymer.\\
+\item {\bf Web:} HTML5, CSS3, Websockets, Web Components, Polymer, React.\\
 \vspace{-.3cm}
 \item {\bf CSS Preprocessors:} Sass, Compass.\\
 \vspace{-.3cm}
@@ -81,46 +86,48 @@ I rant a lot about (NodeJS, ES2015, ES2016, Functinoal Programming, Generator aw
 
 \section{Employment}
 
-{\Large {\bf Search, Yahoo Inc.}}, Software Dev Eng, Sr. (December, 2015 - current)\\
+{\Large {\bf Search, Yahoo Inc.}}, Software Dev Eng, Sr. (December 2015 - current)\\
 \begin{adjustwidth}{.5em}{0pt}
-  I'm part of the Mobile SDK team, I write the backend API for the search SDK.
+  \vspace{-.1cm}
+  I am part of the search Mobile SDK team; I build the backend API for the syndication network.
+  \begin{list2}
+  \vspace{.2cm}
+  \item Scaled the API to 4000 QPS.
+  \item Build fraud detection for the syndication network.
+  \end{list2}
+  \vspace{.05cm}
+
 \end{adjustwidth}
 \vspace{.05cm}
 
-{\Large {\bf YSB, Yahoo Inc.}}, Software Dev Eng, Sr. (November, 2013 - November, 2015)\\
+{\Large {\bf YSB, Yahoo Inc.}}, Software Dev Eng, Sr. (November 2013 - November 2015)\\
 \vspace{-.1cm}
 \begin{list2}
 \vspace{.1cm}
-\item Rewrote the legacy stack with NodeJS and made the application device friendly.
-\item Built A/B testing infrastructure and analytics for products and promotions.
-\item Built automated testing infrastructure leading to continous deployment.
+\item Rewrote the legacy stack with NodeJS, made the application device friendly.
+\item Built A/B testing infrastructure, analytics platform, and continuous deployment.
 \item Reduced development cycle from weeks to hours.
-\item Ported clumsy deployment into single click model.
-\item Rebuilt the payments system with zuora.
-\item Migrated from Y's infrastructure to AWS.
+\item Ported clumsy deployment into single click deployment model.
+\item Rebuilt the payments system with Zuora.
+\item Migrated from Y’s infrastructure to AWS.
 \end{list2}
 \vspace{.05cm}
 
-{\Large {\bf Flickr, Yahoo Inc.}}, Lead Engineer, San Francisco, CA.  \hfill (April, 2013 - Oct, 2013)\\
+{\Large {\bf Flickr, Yahoo Inc.}}, Lead Engineer, San Francisco, CA.  \hfill (April 2013 - Oct 2013)\\
 \vspace{-.1cm}
-\begin{adjustwidth}{.5em}{0pt}
-  I was part of the vibrant Front-End Engineering team. I was involved in the Flickr Reboot and contributed bunch of features.
-\end{adjustwidth}
 
-{\Large {\bf Webhosting, Yahoo Inc.}}, Lead Engineer, Bangalore, India  \hfill (July, 2010 - March, 2013)\\
+{\Large {\bf Webhosting, Yahoo Inc.}}, Lead Engineer, Bangalore, India  \hfill (July 2010 - March 2013)\\
 \vspace{-.1cm}
 \begin{adjustwidth}{.5em}{0pt}
-I started as Sr.Software Engineer, in a year time moved to the role of Tech Lead.\\
+I started as Sr.Software Engineer, in a year time moved to Lead role.\\
 \vspace{-.1cm}
 \begin{list2}
 \vspace{-.3cm}
-\item Re-architected the Rich Text editor.\\
+\item Re-architected the old PHP stack to NodeJS.\\
 \vspace{-.3cm}
-\item Redesigned the major parts of framework to prototype and deliver faster.\\
+\item Redesigned the major parts of the framework to prototype and deliver faster.\\
 \vspace{-.3cm}
-\item Introduced NodeJS.\\
-\vspace{-.3cm}
-\item Build Template testing framework which reduced the testing cost by one third.\\
+\item Build Template testing framework which reduced the testing cost by one-third.\\
 \vspace{-.3cm}
 \item Introduced Frontend best practices, TDD and BDD.\\
 \end{list2}
@@ -130,7 +137,7 @@ I started as Sr.Software Engineer, in a year time moved to the role of Tech Lead
 \section{}
 {\Large {\bf Sportxiom Ventures}}, Web Architect, Hyderabad, India  \hfill 2009 - 2010\\
 \vspace{-.3cm}\\
-Took a position as Web Architect in a bootstrapping startup, I was responsible for building a real time sports application in Python, Django and JavaScript.
+Took a position as Web Architect in a bootstrapping startup, I was responsible for building a real time sports application in Python, Django, and JavaScript.
 \vspace{.05cm}
 
 \section{}
@@ -143,10 +150,8 @@ I was part of the brijj.com, I learned JavaScript and fell in love it. I made lo
 \section{}
 {\Large {\bf Cleartrip}}, Graduate Engineer,  Mumbai, India \hfill 2007 - 2008\\
 \vspace{-.3cm}\\
-I was fresh grad out of college, I was part of air search team. I learned Lisp, web development, air system.
+I was fresh grad out of college, I was a part of air search team. I learned Lisp, web development, air system.
 \vspace{.05cm}
-
-
 
 \section{Awards}
 \begin{list2}
